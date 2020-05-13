@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Skyblock:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Skyblock_jar</output-path>
+    <root id="archive" name="Skyblock.jar">
+      <element id="module-output" name="Skyblock" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/Challenges.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/coopData.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/islandData.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/statsData.yml" />
+    </root>
+  </artifact>
+</component>
