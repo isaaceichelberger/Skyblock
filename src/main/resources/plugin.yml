@@ -1,0 +1,30 @@
+name: Skyblock
+version: 0.5
+main: me.isaaceichelberger.skyblock.Skyblock
+commands:
+  tpworld:
+    usage: /tpworld (worldname)
+    description: teleports the player to the specific world's 0,0.
+  island:
+    usage: /island (create)
+    description: creates and teleports to island
+    aliases: [is]
+  visit:
+    usage: /visit (name)
+  balance:
+    usage: /balance
+    description: gives user balance
+    aliases: [bal]
+  pay:
+    usage: /pay (user) (amount)
+    description: pays the user
+  challenges:
+    usage: /challenges
+    description: shows challenges menu
+    aliases: [c]
+  trade:
+    usage: /trade
+    description: Trade Sapling types
+  shop:
+    usage: /shop
+    description: Buy mob spawn eggs.
