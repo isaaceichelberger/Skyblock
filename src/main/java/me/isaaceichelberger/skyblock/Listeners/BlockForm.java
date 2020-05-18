@@ -30,6 +30,9 @@ public class BlockForm extends SBListener {
                 loc = b.getRelative(BlockFace.NORTH).getLocation();
                 Location newLoc = new Location(world, loc.getX(), loc.getY() - 1, loc.getZ());
                 switch (newLoc.getBlock().getType()){
+                    case COAL_ORE:
+                        loc.getBlock().setType(Material.COAL_ORE);
+                        break;
                     case IRON_ORE:
                         loc.getBlock().setType(Material.IRON_ORE);
                         break;
@@ -52,6 +55,9 @@ public class BlockForm extends SBListener {
                 loc = b.getRelative(BlockFace.EAST).getLocation();
                 Location newLoc = new Location(world, loc.getX(), loc.getY() - 1, loc.getZ());
                 switch (newLoc.getBlock().getType()){
+                    case COAL_ORE:
+                        loc.getBlock().setType(Material.COAL_ORE);
+                        break;
                     case IRON_ORE:
                         loc.getBlock().setType(Material.IRON_ORE);
                         break;
@@ -74,6 +80,9 @@ public class BlockForm extends SBListener {
                 loc = b.getRelative(BlockFace.SOUTH).getLocation();
                 Location newLoc = new Location(world, loc.getX(), loc.getY() - 1, loc.getZ());
                 switch (newLoc.getBlock().getType()){
+                    case COAL_ORE:
+                        loc.getBlock().setType(Material.COAL_ORE);
+                        break;
                     case IRON_ORE:
                         loc.getBlock().setType(Material.IRON_ORE);
                         break;
@@ -96,6 +105,9 @@ public class BlockForm extends SBListener {
                 loc = b.getRelative(BlockFace.WEST).getLocation();
                 Location newLoc = new Location(world, loc.getX(), loc.getY() - 1, loc.getZ());
                 switch (newLoc.getBlock().getType()){
+                    case COAL_ORE:
+                        loc.getBlock().setType(Material.COAL_ORE);
+                        break;
                     case IRON_ORE:
                         loc.getBlock().setType(Material.IRON_ORE);
                         break;

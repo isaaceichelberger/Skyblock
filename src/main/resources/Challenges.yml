@@ -1,0 +1,216 @@
+'1':
+  Title: Get wood!
+  Mission: Collect 64 Oak Wood.
+  Collect: false
+'2':
+  Title: Cobblestone
+  Mission: Collect 64 Cobblestone
+  Collect: false
+'3':
+  Title: Create a coal generator
+  Mission: Place 9 cobblestone in a crafting table to make an coal generator.
+  Collect: false
+'4':
+  Title: Coal!
+  Mission: Collect 64 coal
+  Collect: false
+'5':
+  Title: Create an Iron Generator
+  Mission: Place 9 coal in a crafting table to make an iron generator.
+  Collect: false
+'6':
+  Title: Iron!
+  Mission: Collect 64 Iron Ore
+  Collect: false
+'7':
+  Title: Iron Gear
+  Mission: Craft a full set of iron tools.
+  Collect: false
+'8':
+  Title: More Dirt
+  Mission: Create dirt from 4 saplings or farming materials.
+  Collect: false
+'9':
+  Title: Gravel
+  Mission: Create gravel from 4 dirt
+  Collect: false
+'10':
+  Title: Sand
+  Mission: Create sand from 4 gravel
+  Collect: false
+'11':
+  Title: Farming
+  Mission: Create a wheat farm, collect 64 wheat
+  Collect: false
+'12':
+  Title: Farming Part 2
+  Mission: Collect 64 Carrots
+  Collect: false
+'13':
+  Title: Farming Part 3
+  Mission: Collect 64 Potatoes
+  Collect: false
+'14':
+  Title: Striking Gold!
+  Mission: Create a gold generator from 9 iron ore.
+  Collect: false
+'15':
+  Title: We're rich!
+  Mission: Craft 16 Gold Blocks.
+  Collect: false
+'16':
+  Title: Time for Lapis
+  Mission: Create a lapis generator with 9 gold ore.
+  Collect: false
+'17':
+  Title: More saplings??
+  Mission: Exchange some saplings for new ones using /trade
+  Collect: false
+'18':
+  Title: New wood!
+  Mission: Collect 64 of one of the new wood types.
+  Collect: false
+'19':
+  Title: Clay
+  Mission: Create a clay block from a water bucket and dirt
+  Collect: false
+'20':
+  Title: More lava!
+  Mission: Create a lava bucket from a bucket surrounded by 8 charcoal
+  Collect: false
+'21':
+  Title: Farming Part 4
+  Mission: Collect 64 Sugarcane
+  Collect: false
+'22':
+  Title: Farming Part 5
+  Mission: Collect 64 Pumpkins
+  Collect: false
+'23':
+  Title: Farming Part 6
+  Mission: Collect 64 Melons
+  Collect: false
+'24':
+  Title: Redstone
+  Mission: Create a Redstone Generator with 9 Lapis Blocks
+  Collect: false
+'25':
+  Title: Diamonds!!
+  Mission: Create a Diamond Generator with 9 Diamond Blocks
+  Collect: false
+'26':
+  Title: Even Richer
+  Mission: Craft 16 Diamond Blocks
+  Collect: false
+'27':
+  Title: Obsidian
+  Mission: Create and Mine 16 Obsidian
+  Collect: false
+'28':
+  Title: Livestock
+  Mission: Collect 64 beef
+  Collect: false
+'29':
+  Title: Livestock Part 2
+  Mission: Collect 64 raw chicken
+  Collect: false
+'30':
+  Title: Livestock Part 3
+  Mission: Collect 64 mutton
+  Collect: false
+'31':
+  Title: Enchanting
+  Mission: Craft an Enchantment Table
+  Collect: false
+'32':
+  Title: The Nether
+  Mission: Collect 1 Netherrack
+  Collect: false
+'33':
+  Title: Precious Materials
+  Mission: Collect 64 Nether Quartz
+  Collect: false
+'34':
+  Title: Nether Mobs
+  Mission: Collect a blaze rod and magma cream
+  Collect: false
+'35':
+  Title: Nether Farming?!
+  Mission: Collect 64 Netherwart
+  Collect: false
+'36':
+  Title: The Local Brewery
+  Mission: Brew a Potion!
+  Collect: false
+'37':
+  Title: Mob Spawning Part 1
+  Mission: Get a Zombie Spawn Egg as a Rare Zombie Drop
+  Collect: false
+'38':
+  Title: Spawners Part 1
+  Mission: Craft a Zombie Spawner (8 Iron Bars, Zombie Spawn Egg)
+  Collect: false
+'39':
+  Title: Mob Spawning Part 2
+  Mission: Get a Skeleton Spawn Egg as a Rare Skeleton Drop
+  Collect: false
+'40':
+  Title: Spawners Part 2
+  Mission: Craft a Skeleton Spawner (8 Iron Bars, Skeleton Spawn Egg)
+  Collect: false
+'41':
+  Title: Mob Spawning Part 3
+  Mission: Get a Creeper Spawn Egg as a Rare Creeper Drop
+  Collect: false
+'42':
+  Title: Spawners Part 3
+  Mission: Craft a Creeper Spawner (8 Iron Bars, Creeper Spawn Egg)
+  Collect: false
+'43':
+  Title: Mob Spawning Part 4
+  Mission: Get a Spider Spawn Egg as a Rare Spider Drop
+  Collect: false
+'44':
+  Title: Spawners Part 4
+  Mission: Craft a Spider Spawner (8 Iron Bars, Spider Spawn Egg)
+  Collect: false
+'45':
+  Title: Mob Spawning Part 5
+  Mission: Get a Enderman Spawn Egg as a Rare Enderman Drop
+  Collect: false
+'46':
+  Title: Spawners Part 5
+  Mission: Craft an Enderman Spawner (8 Iron Bars, Enderman Spawn Egg)
+  Collect: false
+'47':
+  Title: Mob Spawning Part 6
+  Mission: Get a Blaze Spawn Egg as a Rare Blaze Drop
+  Collect: false
+'48':
+  Title: Spawners Part 6
+  Mission: Craft a Blaze Spawner (8 Iron Bars, Blaze Spawn Egg)
+  Collect: false
+'49':
+  Title: Mob Spawning Part 7
+  Mission: Get a Pigman Spawn Egg as a Rare Pigman Drop
+  Collect: false
+'50':
+  Title: Spawners Part 7
+  Mission: Craft a Pigman Spawner (8 Iron Bars, Pigman Spawn Egg)
+  Collect: false
+'51':
+  Title: Mob Spawning Part 8
+  Mission: Your skeleton spawner has a rare chance of spawning wither skeletons. Collect 1 wither skull.
+  Collect: false
+'52':
+  Title: Eventually a Wither
+  Mission: Collect 3 Wither skeleton skulls
+  Collect: false
+'53':
+  Title: Nether Star
+  Mission: Collect a nether star
+  Collect: false
+'54':
+  Title: Beacon
+  Mission: Craft a beacon
+  Collect: false

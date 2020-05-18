@@ -85,10 +85,26 @@ public final class Skyblock extends JavaPlugin {
         pm.registerEvents(new EntityDeath(this), this);
         pm.registerEvents(new PortalEnter(this), this);
         pm.registerEvents(new MobSpawn(this), this);
+        pm.registerEvents(new EntityPortalCreate(this), this);
+        pm.registerEvents(new EntityGrief(this), this);
     }
 
     private void getRecipes()
     {
+        // Coal Ore Recipe for Coal Gen
+        ItemStack coal = new ItemStack(Material.COAL_ORE);
+        ItemMeta coalMeta = coal.getItemMeta();
+        ArrayList<String> coalLore = new ArrayList<>();
+        coalLore.add(ChatColor.GRAY + "Place this under where cobbblestone would generate");
+        coalLore.add(ChatColor.GRAY + "to generate coal ore");
+        coalMeta.setDisplayName(ChatColor.DARK_GRAY + "COAL GEN");
+        coalMeta.setLore(coalLore);
+        coal.setItemMeta(coalMeta);
+        ShapedRecipe coal_ore_block = new ShapedRecipe(coal);
+        coal_ore_block.shape("CCC", "CCC", "CCC");
+        coal_ore_block.setIngredient('C', Material.COBBLESTONE);
+        getServer().addRecipe(coal_ore_block);
+
         // Iron Ore Recipe for Iron Gen
         ItemStack iron = new ItemStack(Material.IRON_ORE);
         ItemMeta ironMeta = iron.getItemMeta();
@@ -100,7 +116,7 @@ public final class Skyblock extends JavaPlugin {
         iron.setItemMeta(ironMeta);
         ShapedRecipe iron_ore_block = new ShapedRecipe(iron);
         iron_ore_block.shape("CCC", "CCC", "CCC");
-        iron_ore_block.setIngredient('C', Material.COBBLESTONE);
+        iron_ore_block.setIngredient('C', Material.COAL_BLOCK);
         getServer().addRecipe(iron_ore_block);
 
         // Gold Ore Recipe for Gold Gen
@@ -234,6 +250,21 @@ public final class Skyblock extends JavaPlugin {
         lavaRecipe.setIngredient('B', Material.BUCKET);
         getServer().addRecipe(lavaRecipe);
 
+        // Clay Recipe
+        ItemStack clay = new ItemStack(Material.CLAY);
+        ShapelessRecipe clayRecipe = new ShapelessRecipe(clay);
+        clayRecipe.addIngredient(Material.WATER_BUCKET);
+        clayRecipe.addIngredient(Material.DIRT);
+        getServer().addRecipe(clayRecipe);
+
+        // End Portal Recipe
+        ItemStack endFrame = new ItemStack(Material.ENDER_PORTAL_FRAME);
+        ShapedRecipe endFrameR = new ShapedRecipe(endFrame);
+        endFrameR.shape("CCC", "CEC", "OOO");
+        endFrameR.setIngredient('C', Material.COBBLESTONE);
+        endFrameR.setIngredient('E', Material.EYE_OF_ENDER);
+        endFrameR.setIngredient('O', Material.OBSIDIAN);
+        getServer().addRecipe(endFrameR);
     }
 
     @Override

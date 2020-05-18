@@ -6,8 +6,6 @@ import org.bukkit.entity.Skeleton;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 
-import java.util.Random;
-
 public class MobSpawn extends SBListener {
     Skyblock skyblock;
 
@@ -23,6 +21,9 @@ public class MobSpawn extends SBListener {
             if (random <= 3){
                 Skeleton skeleton = (Skeleton) e.getEntity();
                 skeleton.setSkeletonType(Skeleton.SkeletonType.WITHER);
+            }
+            if (e.getEntityType() == EntityType.PIG) {
+                e.setCancelled(true);
             }
         }
     }

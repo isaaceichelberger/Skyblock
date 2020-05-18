@@ -51,6 +51,36 @@ public class BlockBreak extends SBListener {
             }
 
         }
+        // if I wanted to disallow breaking in end, unncessary if we reset the end each time
+        else if (e.getPlayer().getWorld() == Bukkit.getWorld("world_the_end")){
+           /* Block b = e.getBlock();
+            Material bt = b.getType();
+            int random = (int) (Math.random() * 100 + 15);
+            // Allow glitch fixes
+            if (b.getType() == Material.BEDROCK) {
+                if (e.getPlayer().isOp()) {
+                    b.setType(Material.AIR);
+                }
+            }
+            else if (b.getType() == Material.ENDER_PORTAL_FRAME){
+                    e.setCancelled(true);
+            }
+            else {
+                new BukkitRunnable() {
+                    @Override
+                    public void run() {
+                        b.setType(Material.BEDROCK);
+                    }
+                }.runTaskLater(skyblock, 1); // Allow player to get correct drops
+                new BukkitRunnable() {
+                    @Override
+                    public void run() {
+                        b.setType(bt);
+                    }
+                }.runTaskLater(skyblock, random); // regenerate
+            }*/
+           e.setCancelled(false);
+        }
         else{
             try {
                 if (skyblock.getCoopDataConfig().contains("Coop.UUID." + e.getPlayer().getUniqueId())) {
